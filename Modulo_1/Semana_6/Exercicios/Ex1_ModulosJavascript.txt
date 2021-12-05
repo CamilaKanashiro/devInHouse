@@ -1,0 +1,5 @@
+Antigamente, o JavaScript era utilizado para adicionar pequenas interações e animações em páginas da web. Com o avanço da utilização, os scripts passaram a ficar muito grandes e complexos.
+
+Posto este cenário, quais as duas maiores vantagens de se utilizar módulos no JavaScript?
+
+As duas maiores vantagens de se utilizar módulos no JavaScript são a melhor organizaçao dos códigos e manutenção do mesmo, e o carregamento de módulos ou parte deles apenas quando for necessário.
