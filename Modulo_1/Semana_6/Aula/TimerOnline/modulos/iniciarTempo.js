@@ -1,11 +1,11 @@
 import {displayDoTempo} from './seletores.js';
 
 let tempoRestante = 5*60;
+export let intervalo;
 
-
-
-function decrementoTempo () {
-    if (tempoRestante > 0) {
+const iniciarTempo = () => {
+    intervalo = setInterval(() => {    
+        if (tempoRestante > 0) {
         --tempoRestante;
         let min =  parseInt(tempoRestante / 60) > 9 ? 
         parseInt(tempoRestante / 60) : 
@@ -16,10 +16,9 @@ function decrementoTempo () {
         "0" + tempoRestante % 60;
 
         displayDoTempo.innerText = min + ":" + seg;
-        console.log(tempoRestante);
     }
+    },1000)
 };
 
-let tempo = setInterval(decrementoTempo,1000);
+export default iniciarTempo;
 
-export default tempo;  
