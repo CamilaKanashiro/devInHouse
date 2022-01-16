@@ -1,0 +1,18 @@
+main {
+    border: rgb(86, 87, 85) solid 2px;
+    width: 200px;
+}
+
+#input {
+    width: 180px;
+    height: 30px;
+    margin: 5px;
+}
+
+.botao {
+    height: 36px;
+    width: 36px;
+    cursor: pointer;
+    margin: 5px;
+}
+

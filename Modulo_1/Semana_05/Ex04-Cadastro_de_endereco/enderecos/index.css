@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    width: 100%;
+}
+
+.cabeçalho {
+    background-color: rgb(197, 241, 153);
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cabeçalho a {
+    text-decoration: none;
+    color: black;
+    border: rgb(0, 0, 0) 1px solid;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.container {
+    margin-top: 35px;
+    display: flex;
+    flex-direction: column;  
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+} 
+
+.container-table {
+    width: 1440px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+table,th, td {
+    border: 1px black solid;
+}

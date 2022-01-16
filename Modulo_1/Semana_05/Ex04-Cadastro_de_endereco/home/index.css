@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+}
+
+.cabeçalho {
+    background-color: rgb(197, 241, 153);
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cabeçalho a {
+    text-decoration: none;
+    color: black;
+    border: rgb(0, 0, 0) 1px solid;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 35px;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 300px;   
+
+    background-color: rgb(245, 250, 236);
+}
+
+.formulario label {
+    display: flex;
+    flex-direction: column;
+}
+
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+    
+}
+input[type=number] { 
+   -moz-appearance: textfield;
+   appearance: textfield;
+
+}
+
+.formulario button {
+    align-self: center;
+}

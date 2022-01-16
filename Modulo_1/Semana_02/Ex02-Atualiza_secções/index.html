@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pesquisa</title>
+
+    <style type="text/css">
+        .caixa{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .participantes {
+            border: 1px solid #000;
+            margin: 15px 13px;
+            padding: 8px 10px;
+            border-radius: 5px;
+            width: 180px;
+            text-align: center;
+        }
+
+        .participantes p {
+            display: block;
+            margin: 5px  auto;
+            text-align: center;
+        }
+
+        button{
+            display: block;
+            margin: 5px auto;
+            padding: 5px 10px;
+            border-radius: 5px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="caixa">
+        <section class="participantes">
+            <h1>Número de participantes</h1>
+            <p id="numeroParticipantes">0</p>
+        </section>
+        <section class="participantes">
+            <h1>Idade média dos participantes</h1>
+            <p id="idadeParticipantes">0</p>
+        </section>
+        <section class="participantes">
+            <h1>Número de satisfeitos</h1>
+            <p id="numeroSatisfeitos">0</p>
+        </section>
+    </div>
+    <button type="button" id="participar" onclick="participacao()">Participar</button>
+    <script src="index.js"></script>
+</body>
+</html>

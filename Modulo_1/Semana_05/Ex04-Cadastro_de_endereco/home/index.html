@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cadastro de Endereços</title>
+        <link rel="stylesheet" href="./index.css">
+    </head>
+    <body>
+        <header class="cabeçalho">
+            <h1>Cadastro de Endereços</h1>
+            <a href="../enderecos/index.html">Ver Endereços Salvos</a>
+        </header>
+        <forms class="container">
+            <fieldset class="formulario">
+                <legend>Endereço do Cliente</legend>
+                <label for="logradouro-cliente">Logradouro: 
+                    <input id="logradouro-cliente" type="text">
+                </label>
+                <label for="numero-cliente">Número: 
+                    <input id="numero-cliente" type="number">
+                </label>
+                <label for="cidade-cliente">Cidade: 
+                    <input id="cidade-cliente" type="text">
+                </label>
+                <label for="estado-cliente">Estado: 
+                    <input id="estado-cliente" type="text">
+                </label>
+                <label for="pais-cliente">País: 
+                    <input id="pais-cliente" type="text">
+                </label>
+                <label for="cep-cliente">CEP: 
+                    <input id="cep-cliente" type="text">
+                </label>
+                <button id="botao-cliente" type="button" onclick="cadastrarCliente()">Cadastrar</button>
+            </fieldset>
+
+            <fieldset class="formulario">
+                <legend>Endereço da Loja</legend>
+                <label for="logradouro-loja">Logradouro: 
+                    <input id="logradouro-loja" type="text">
+                </label>
+                <label for="numero-loja">Número: 
+                    <input id="numero-loja" type="number">
+                </label>
+                <label for="cidade-loja">Cidade: 
+                    <input id="cidade-loja" type="text">
+                </label>
+                <label for="estado-loja">Estado: 
+                    <input id="estado-loja" type="text">
+                </label>
+                <label for="pais-loja">País: 
+                    <input id="pais-loja" type="text">
+                </label>
+                <label for="cep-loja">CEP: 
+                    <input id="cep-loja" type="text">
+                </label>
+                <button id="botao-loja" type="button" onclick="cadastrarLoja()">Cadastrar</button>
+            </fieldset>
+
+            <fieldset class="formulario">
+                <legend>Endereço do Mercado</legend>
+                <label for="logradouro-mercado">Logradouro: 
+                    <input id="logradouro-mercado" type="text">
+                </label>
+                <label for="numero-mercado">Número: 
+                    <input id="numero-mercado" type="number">
+                </label>
+                <label for="cidade-mercado">Cidade: 
+                    <input id="cidade-mercado" type="text">
+                </label>
+                <label for="estado-mercado">Estado: 
+                    <input id="estado-mercado" type="text">
+                </label>
+                <label for="pais-mercado">País: 
+                    <input id="pais-mercado" type="text">
+                </label>
+                <label for="cep-mercado">CEP: 
+                    <input id="cep-mercado" type="text">
+                </label>
+                <button id="botao-mercado" type="button" onclick="cadastrarMercado()">Cadastrar</button>
+            </fieldset>
+        </forms>
+        <script src="./index.js"></script>
+    </body>
+    
+</html>

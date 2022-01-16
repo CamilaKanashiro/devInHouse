@@ -1,0 +1,72 @@
+
+h1 {
+    background-color: rgb(215, 242, 255);
+    margin: 0;
+    padding: 15px;
+}
+
+#cadastro, #listaDeEnderecos {
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+fieldset {
+    border: black 1px solid;
+}
+
+.linha{
+    display: flex;
+    margin: auto auto auto auto;
+    width: 600px;
+    gap: 15px;
+}
+.campoNome {
+    display: block;
+    flex-grow: 2;
+}
+
+.campoEmail, .campoRua, .campoBairro {
+    display: block;
+    flex-grow: 4;
+}
+
+.campoNumRua {
+    display: block;
+    width: 100px;
+}
+
+.campoTelefone, .campoCEP {
+    display: block;
+    width: 150px;
+}
+
+label{
+    display: block;
+}
+
+input{
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+
+#btnEnviar {
+    margin: 10px auto;
+    padding: 3px;
+    width: 150px;
+    background-color: rgb(80, 80, 80);
+    color: #FFF;
+    border-radius: 3px;
+    box-shadow: grey 2px 2px 5px;
+}
+
+table{
+    width: 100%;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+tr, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}

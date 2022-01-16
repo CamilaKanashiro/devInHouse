@@ -1,0 +1,1 @@
+Usando o exercício 5, salve o último status da lâmpada no local storage.

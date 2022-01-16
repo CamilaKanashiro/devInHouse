@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de endereço</title>
+    <link rel="stylesheet"  href="./index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body onload="carregarDados()">
+    <h1>Formulário de endereço dinâmico</h1>
+    <section id="cadastro">
+        <h2> Cadastro</h2>
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <div class="linha">
+                <div class="campoNome">
+                    <label for="nome">Nome:</label>
+                    <input id="nome" type="text">
+                </div>
+
+                <div class="campoNome">
+                    <label for="sobrenome">Sobrenome:</label>
+                    <input id="sobrenome" type="text">
+                </div>
+            </div>
+
+        <div class="linha">
+            <div class="campoEmail">
+                <label for="email">Email:</label>
+                <input id="email" type="email">
+            </div>
+
+            <div class="campoTelefone">
+                <label for="telefone">Telefone:</label>
+                <input id="telefone" type="tel">
+            </div>
+        </div>  
+        </fieldset>
+   
+        <fieldset>
+            <legend>Dados do Endereço</legend>
+            <div  class="linha">        
+                <div class="campoRua">
+                    <label for="rua">Rua:</label>
+                    <input type="text" id="rua">
+                </div>
+
+                <div class="campoNumRua">
+                    <label for="numeroRua">Número:</label>
+                    <input type="number" id="numeroRua">
+                </div>
+            </div>    
+
+            <div  class="linha">     
+                <div class="campoBairro">
+                    <label for="bairro">Bairro:</label>
+                    <input type="text" id="bairro">
+                </div>
+
+                <div class="campoCEP">
+                    <label for="CEP">CEP:</label>
+                    <input type="tel" id="CEP">
+                </div>
+            </div>    
+        </fieldset>
+
+        <div  class="linha"> 
+            <button   id="btnAdicionar" type="button" >Adicionar endereço</button>
+        </div>
+ 
+    </section>
+    <section id="listaDeEnderecos">
+        <h3> Lista de enderecos</h3>
+        <table id="tabela">
+            <tr>
+                <th>Nome</th>
+                <th>Sobrenome </th>
+                <th>Email</th>
+                <th>Telefone</th>
+                <th>Rua</th>
+                <th>Número</th>
+                <th>Bairro</th>
+                <th>CEP</th>
+            </tr>
+        </table>
+        <div id="containerBotaoSalvar">
+            <button id="btnSalvar" type="button">Salvar</button>
+        </div>
+    </section>
+
+    <script defer  type="text/javascript"  src="./index.js"></script>    
+</body>
+</html>  
